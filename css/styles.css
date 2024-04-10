@@ -1,0 +1,140 @@
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url("background.jpeg");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+.root {
+    background-image: radial-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    box-sizing: border-box;
+    color: rgb(229, 9, 20);
+    display: block;
+    fill: rgb(229, 9, 20);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: 40px;
+    overflow-clip-margin: content-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-size-adjust: 100%;
+    width: 148px;
+    margin-left: 50px;
+    font-size: 25px;
+    letter-spacing: 0.01cm;
+}
+
+.btn-sign-in {
+    background-color: #e50914;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: fit-content;
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    padding-top: 1%;
+    flex-direction: row;
+}
+
+.main-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title-container {
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main-title {
+    padding-top: 50px;
+    font-size: 55px;
+    margin-bottom: 14px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    letter-spacing: -4px;
+}
+
+.main-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.paratext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.main-email-container {
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    width: 67%;
+    margin-right: 5px;
+}
+
+.main-email-container-input {
+    outline: none;
+    border: none;
+    padding: 20px 100px;
+    font-size: 1.2em;
+    background-color: rgba(105, 100, 100, 0.733);
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+.emailinfo {
+    margin-right: 0px;
+    margin-left: 350px;
+    padding-right: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.getstarted {
+    background-color: #e50914;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.4cm;
+    height: 60px;
+    padding-right: 40px;
+    width: 450px;
+    border: 5px solid red;
+    transition: background-color 2s;
+    padding: 20px;
+}
+
+.getstarted:hover {
+    background-color: #e50914;
+}
